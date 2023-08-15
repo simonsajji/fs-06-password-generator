@@ -1,0 +1,96 @@
+
+.App{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.generator{
+  text-align: left;
+  font-size: 20px;
+}
+
+.t-center{
+  text-align: center!important;
+}
+
+.check{
+  display: flex;
+  text-align: left;
+}
+
+.j-self-center{
+  justify-self: center;
+}
+
+.t-number{
+  width: 40vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="number"]{
+  width: 50%;
+  height: 25px;
+  border-radius: 5px;
+  border: 0.01rem solid gray;
+  /* margin-left: 10px; */
+}
+
+.t-number-label{
+  width: 50%;
+}
+
+button{
+  width: 100%;
+  padding: 10px;
+  background-color: cadetblue;
+  color: rgb(241, 246, 250);
+  font-weight: 500;
+  border: 0;
+  outline: none;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.f-bold{
+  font-weight: 600;
+}
